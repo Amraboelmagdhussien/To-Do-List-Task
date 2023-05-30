@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.todo-item label {
+    flex-grow: 1;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
